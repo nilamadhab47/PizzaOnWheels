@@ -9,10 +9,10 @@
   },
   "scripts": {
     "client-install": "npm install --prefix client_side",
-    "server": "nodemon server.js",
+    "server": "nodemon Server.js",
     "client": "npm start --prefix client_side",
-    "dev": "concurrently \"npm run server\" \"npm run client_side\"",
-    "start": "node server.js",
+    "dev": "concurrently \"npm run Server\" \"npm run client_side\"",
+    "start": "node Server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client_side && npm run build --prefix client_side"
   },
   "author": "",
