@@ -1,0 +1,53 @@
+html{
+  scroll-behavior: smooth;
+  background-color: #212529;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #212529 !important;
+  color: #ffffff;
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none;
+  color: #ffb03b;
+}
+
+a:hover {
+  color: #ffc56e;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Satisfy", sans-serif;
+}
+
+.adminfunctions{
+  padding: 10px;
+  background-color:rgb(1, 1, 77);
+}
+
+.adminfunctions li{
+  list-style-type: none !important; 
+  display: inline !important;
+  color: white !important;
+}
+.adminfunctions li a{
+   color: white !important;
+   padding: 20px;
+   text-decoration: none !important;
+}
+
+td , th , tr{
+  cursor: pointer;
+  text-align:left;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.cards {
+    background-color: rgb(255, 255, 255) !important;
+    height: 36rem !important;
+    width: 20rem !important;
+}
+
+.cards-img {
+    height: 20rem !important;
+    /* width: 17rem; */
+    width: 20rem !important;
+}
+.card-footer {
+    padding-top: 14px !important;
+    
+}

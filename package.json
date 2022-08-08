@@ -1,0 +1,35 @@
+{
+  "name": "pizzaonwheels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client_side",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client_side",
+    "dev": "concurrently \"npm run server\" \"npm run client_side\"",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client_side && npm run build --prefix client_side"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "gitignore": "^0.7.0",
+    "mongoose": "^6.4.7",
+    "razorpay": "^2.8.3",
+    "react-toastify": "^9.0.8",
+    "router": "^1.3.7",
+    "stripe": "^8.222.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
