@@ -49,8 +49,8 @@ export default function Loginscreen() {
                     <form>
     
                       <div className="d-flex align-items-center mb-3 pb-1">
-                        <i className="fas fa-cubes fa-2x me-3" style={{color: "#ff6219"}}></i>
-                        <span className="h1 fw-bold mb-0">Logo</span>
+                      <img src={logo} alt="logo" className='logo' style={{height: "30px"}}/>
+                        <span className="h1 fw-bold mb-0">Pizza on Wheels</span>
                       </div>
     
                       <h5 className="fw-normal mb-3 pb-3" style={{letterSpacing: "1px"}}>Sign into your account</h5>
