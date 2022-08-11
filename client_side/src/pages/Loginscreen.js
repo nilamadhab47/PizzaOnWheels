@@ -5,6 +5,7 @@ import { loginUser } from "../action/UserAction";
 import Error from "../components/Error";
 import Loading from "../components/Loading";
 import img from "../images/img1.jpg"
+import logo from "../images/Asset.png"
 
 
 export default function Loginscreen() {
